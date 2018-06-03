@@ -1,0 +1,9 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 9100
+
+logging:
+  level: INFO
+  loggers:
+    homeServer: DEBUG
