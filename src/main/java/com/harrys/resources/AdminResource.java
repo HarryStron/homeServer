@@ -18,8 +18,6 @@ import javax.ws.rs.core.MediaType;
 @Path("/adminTools")
 @Produces(MediaType.APPLICATION_JSON)
 public class AdminResource {
-    public AdminResource() {}
-
     @GET
     @Path("echo")
     @Timed
